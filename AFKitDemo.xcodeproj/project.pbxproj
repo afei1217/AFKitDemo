@@ -10,6 +10,7 @@
 		75CC98F820E9FC4A00BF94DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC98F720E9FC4A00BF94DD /* AppDelegate.m */; };
 		75CC98FB20E9FC4A00BF94DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC98FA20E9FC4A00BF94DD /* ViewController.m */; };
 		75CC990620E9FC4C00BF94DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC990520E9FC4C00BF94DD /* main.m */; };
+		75CC991620E9FF2800BF94DD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CC991420E9FF2800BF94DD /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		75CC990420E9FC4C00BF94DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75CC990520E9FC4C00BF94DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75CC990D20E9FD6000BF94DD /* Launch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Launch.xcassets; sourceTree = "<group>"; };
+		75CC991420E9FF2800BF94DD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		75CC991520E9FF2800BF94DD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		75CC98F520E9FC4A00BF94DD /* AFKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				75CC991020E9FF2800BF94DD /* AFKit */,
 				75CC98F620E9FC4A00BF94DD /* AppDelegate.h */,
 				75CC98F720E9FC4A00BF94DD /* AppDelegate.m */,
 				75CC98F920E9FC4A00BF94DD /* ViewController.h */,
@@ -70,6 +74,39 @@
 				75CC990420E9FC4C00BF94DD /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75CC991020E9FF2800BF94DD /* AFKit */ = {
+			isa = PBXGroup;
+			children = (
+				75CC991120E9FF2800BF94DD /* AFCategories */,
+			);
+			path = AFKit;
+			sourceTree = "<group>";
+		};
+		75CC991120E9FF2800BF94DD /* AFCategories */ = {
+			isa = PBXGroup;
+			children = (
+				75CC991220E9FF2800BF94DD /* UIKit */,
+			);
+			path = AFCategories;
+			sourceTree = "<group>";
+		};
+		75CC991220E9FF2800BF94DD /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				75CC991320E9FF2800BF94DD /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		75CC991320E9FF2800BF94DD /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				75CC991520E9FF2800BF94DD /* UIView+Frame.h */,
+				75CC991420E9FF2800BF94DD /* UIView+Frame.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CC991620E9FF2800BF94DD /* UIView+Frame.m in Sources */,
 				75CC98FB20E9FC4A00BF94DD /* ViewController.m in Sources */,
 				75CC990620E9FC4C00BF94DD /* main.m in Sources */,
 				75CC98F820E9FC4A00BF94DD /* AppDelegate.m in Sources */,
