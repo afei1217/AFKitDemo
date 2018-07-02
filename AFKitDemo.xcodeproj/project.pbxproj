@@ -24,6 +24,8 @@
 		75CC990D20E9FD6000BF94DD /* Launch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Launch.xcassets; sourceTree = "<group>"; };
 		75CC991420E9FF2800BF94DD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		75CC991520E9FF2800BF94DD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		75CC991720EA1E5E00BF94DD /* AFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFKit.h; sourceTree = "<group>"; };
+		75CC991820EA1ED100BF94DD /* AFCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		75CC991020E9FF2800BF94DD /* AFKit */ = {
 			isa = PBXGroup;
 			children = (
+				75CC991720EA1E5E00BF94DD /* AFKit.h */,
 				75CC991120E9FF2800BF94DD /* AFCategories */,
 			);
 			path = AFKit;
@@ -87,6 +90,7 @@
 		75CC991120E9FF2800BF94DD /* AFCategories */ = {
 			isa = PBXGroup;
 			children = (
+				75CC991820EA1ED100BF94DD /* AFCategories.h */,
 				75CC991220E9FF2800BF94DD /* UIKit */,
 			);
 			path = AFCategories;
