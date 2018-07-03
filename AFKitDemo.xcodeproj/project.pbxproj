@@ -59,7 +59,7 @@
 		75CC98F520E9FC4A00BF94DD /* AFKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				75CC991020E9FF2800BF94DD /* AFKit */,
+				75CC991020E9FF2800BF94DD /* CYFKit */,
 				75CC98F620E9FC4A00BF94DD /* AppDelegate.h */,
 				75CC98F720E9FC4A00BF94DD /* AppDelegate.m */,
 				75CC98F920E9FC4A00BF94DD /* ViewController.h */,
@@ -79,13 +79,13 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		75CC991020E9FF2800BF94DD /* AFKit */ = {
+		75CC991020E9FF2800BF94DD /* CYFKit */ = {
 			isa = PBXGroup;
 			children = (
 				75CC991720EA1E5E00BF94DD /* AFKit.h */,
 				75CC991120E9FF2800BF94DD /* AFCategories */,
 			);
-			path = AFKit;
+			path = CYFKit;
 			sourceTree = "<group>";
 		};
 		75CC991120E9FF2800BF94DD /* AFCategories */ = {
