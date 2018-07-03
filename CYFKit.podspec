@@ -15,22 +15,22 @@ Pod::Spec.new do |s|
 
     s.source       = { :git => "https://github.com/chenyongfei/AFKitDemo.git", :tag => "0.0.1" }
 
-    s.public_header_files = "AFKitDemo/AFKit/AFKit.h"
-    s.source_files = "AFKitDemo/CYFKit/AFKit.h"
+    s.public_header_files = "AFKit/AFKit.h"
+    s.source_files = "CYFKit/AFKit.h"
 
     # 通用分类
     s.subspec 'AFCategories' do |categories|
-        categories.public_header_files = "AFKitDemo/CYFKit/AFCategories/AFCategories.h"
-        categories.source_files = "AFKitDemo/CYFKit/AFCategories/AFCategories.h"
+        categories.public_header_files = "CYFKit/AFCategories/AFCategories.h"
+        categories.source_files = "CYFKit/AFCategories/AFCategories.h"
 
         # UIKit
         categories.subspec 'UIKit' do |uikit|
-            uikit.public_header_files = 'AFKitDemo/CYFKit/AFCategories/UIKit/UIKit+AFCategories.h'
-            uikit.source_files = 'AFKitDemo/CYFKit/AFCategories/UIKit/UIKit+AFCategories.h'
+            uikit.public_header_files = 'CYFKit/AFCategories/UIKit/UIKit+AFCategories.h'
+            uikit.source_files = 'CYFKit/AFCategories/UIKit/UIKit+AFCategories.h'
 
             # UIView
             uikit.subspec 'UIView' do |ss|
-                ss.source_files = "AFKitDemo/CYFKit/AFCategories/UIKit/UIView/*.{h,m}"
+                ss.source_files = "CYFKit/AFCategories/UIKit/UIView/*.{h,m}"
             end
         end
     end

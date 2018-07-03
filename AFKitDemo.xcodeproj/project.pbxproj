@@ -43,6 +43,7 @@
 		75CC98EA20E9FC4A00BF94DD = {
 			isa = PBXGroup;
 			children = (
+				75CC991020E9FF2800BF94DD /* CYFKit */,
 				75CC98F520E9FC4A00BF94DD /* AFKitDemo */,
 				75CC98F420E9FC4A00BF94DD /* Products */,
 			);
@@ -59,7 +60,6 @@
 		75CC98F520E9FC4A00BF94DD /* AFKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				75CC991020E9FF2800BF94DD /* CYFKit */,
 				75CC98F620E9FC4A00BF94DD /* AppDelegate.h */,
 				75CC98F720E9FC4A00BF94DD /* AppDelegate.m */,
 				75CC98F920E9FC4A00BF94DD /* ViewController.h */,
