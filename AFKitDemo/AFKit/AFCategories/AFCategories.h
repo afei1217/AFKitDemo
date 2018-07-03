@@ -9,6 +9,7 @@
 #ifndef AFCategories_h
 #define AFCategories_h
 
-#import "UIView+Frame.h"        // UIView 的一些关于坐标、大小的快捷属性
+// 常用分类
+#import "UIKit+AFCategories.h"
 
 #endif /* AFCategories_h */
